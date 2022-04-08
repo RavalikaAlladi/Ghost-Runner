@@ -46,7 +46,7 @@ function draw() {
 
     }
 
-    // write a code to move left when right arrow is pressed
+    // write a code to move right when right arrow is pressed
     if(keyDown("")){
   
           ghost.x = ghost.x + 3;      
