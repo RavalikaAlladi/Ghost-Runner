@@ -52,7 +52,7 @@ function draw() {
           ghost.x = ghost.x + 3;      
     }
 
-    // write a code to move up when space arrow is pressed
+    // write a code to move up when space bar is pressed
     if(keyDown("")){
   
          ghost.velocityY = -10;  
