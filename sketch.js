@@ -34,7 +34,8 @@ function setup() {
 
 function draw() {
   background(255);
- if(tower.y > ){
+  //write a condition for infinte scrolling tower
+  if(tower.y > ){
       tower.y = 300
     } 
   
@@ -59,10 +60,7 @@ function draw() {
     }
   
     ghost.velocityY = ghost.velocityY + 0.8;
-  
-   
-    //write a condition for infinte scrolling tower
-    
+      
     spawnDoors();
 
   
