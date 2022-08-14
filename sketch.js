@@ -63,12 +63,11 @@ function draw() {
       
     spawnDoors();
 
-  
-    //write a condition to check invisibleBlockGroup collide with ghost. 
-    //Destroy the ghost and change gamestate to end.
      if(climbersGroup.isTouching(ghost)){
       ghost.velocityY = 0;
     }
+    //write a condition to check invisibleBlockGroup collide with ghost. 
+    //Destroy the ghost and change gamestate to end.
     if(invisibleBlockGroup.isTouching(ghost) || ghost.y > 600){
       ghost.
       gameState = ""
